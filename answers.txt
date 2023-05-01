@@ -1,0 +1,43 @@
+Level 1
+-------
+Sanity Check - he2023{just_A_sanity_chEck}
+
+Level 2
+-------
+Word Cloud - he2023{this_is_the_flag!}
+Rotation - he2023{0n3_c4n_r34d_r0t0r_b4ckw4rds}
+Birds on a Wire - he2023{birdwatchingisfun}
+Bins -
+
+Level 3
+-------
+Chemical Code - he2023{flagenergyatomcosmos}
+Serving Things -
+Cut Off - he2023{4cr0pa_wh4t?}
+Globabl Egg Delivery -
+
+Level 4
+-------
+Flip Flop - he2023{1m4g3-tr4g1cK-aga111n}
+Bouncy Not In The Castle -
+A Mysterious Parchment - he2023{BUTISITACOOLOLDCODEITSUREIS}
+Hamster - he2023{s1mpl3_h34d3r_t4mp3r1ng}
+Lost in (French) Space -
+Spy Tricks - he2023{I_like_303_b3tter_but_thats_n0t_pr1me}
+
+Level 5
+-------
+Thumper's PWN - Ring 3 - he2023{w3lc0m3_t0_r1ng_3_thump3r}
+Ghost in a Shell 4 - he2023{al1asses-4-fUn-and-pr0fit}
+Going Round - he2023{fl1p_n_r0t4t3_in_p4irs}
+Numbers Station -
+Igor's Gory Passwordsafe - he2023{1d0R_c4n_d3str0y_ur_Crypt0_3ff0rt}
+Singular -
+
+Level 6
+-------
+Crash Bash -
+Code Locked - he2023{w3b4553m81y_15_FUN}
+Quilt - he2023{Qu1lt1ng_is_quit3_relaxing!}
+Cats in the Bucket - he2023{r0l3_assum3d_succ3ssfuLLy}
+Tom's Diary -
