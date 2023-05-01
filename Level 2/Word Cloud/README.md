@@ -1,6 +1,10 @@
 Word Cloud
 =============
 
+Difficulty: noob
+
+Tags: misc
+
 Description
 -------------
 I like Word Clouds, what about you?
@@ -18,4 +22,4 @@ The flag is in the bottom right corner of the image above the word Easter.
 
 Flag
 -------------
-he2023{this_is_the_flag!}
+`he2023{this_is_the_flag!}`

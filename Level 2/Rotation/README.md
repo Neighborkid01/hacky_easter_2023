@@ -1,6 +1,10 @@
 Rotation
 =============
 
+Difficulty: noob
+
+Tags: misc
+
 Description
 -------------
 My new rotor messed up the flag!

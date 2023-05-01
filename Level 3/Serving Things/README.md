@@ -1,6 +1,10 @@
 Serving Things
 =============
 
+Difficulty: easy
+
+Tags: web
+
 Description
 -------------
 Get the 🚩 at /flag.

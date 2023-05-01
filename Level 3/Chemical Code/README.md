@@ -1,6 +1,10 @@
 Chemical Code
 =============
 
+Difficulty: easy
+
+Tags: misc
+
 Description
 -------------
 Our crazy chemistry professor wrote a secret code on the blackboard:

@@ -1,6 +1,10 @@
 Cut Off
 =============
 
+Difficulty: easy
+
+Tags: forensics
+
 Description
 -------------
 I had a secret Easter egg on my screenshot, but I cropped it, hehe!

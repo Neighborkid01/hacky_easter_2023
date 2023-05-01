@@ -1,6 +1,10 @@
 Sanity Check
 =============
 
+Difficulty: noob
+
+Tags: misc
+
 Description
 -------------
 This is your first flag!
@@ -16,4 +20,4 @@ The text is greyed out, but copying it will select the actutal text.
 
 Flag
 -------------
-he2023{just_A_sanity_chEck}
+`he2023{just_A_sanity_chEck}`

@@ -1,6 +1,10 @@
 Birds on a Wire
 =============
 
+Difficulty: noob
+
+Tags: crypto
+
 Description
 -------------
 Just some birds sitting on a wire.

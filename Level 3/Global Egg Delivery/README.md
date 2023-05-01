@@ -1,6 +1,10 @@
 Global Egg Delivery
 =============
 
+Difficulty: easy
+
+Tags: misc
+
 Description
 -------------
 Thumper has taken great strides with the digitization of the business of distributing eggs and assorted goodies. Globalizing such a service is not without its pains and requires the additional effort to account for local customs.

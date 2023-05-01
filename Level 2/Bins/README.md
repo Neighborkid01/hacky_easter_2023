@@ -1,6 +1,10 @@
 Bins
 =============
 
+Difficulty: noob
+
+Tags: misc
+
 Description
 -------------
 The rabbits left a mess in their cage.
