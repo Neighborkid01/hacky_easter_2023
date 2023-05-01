@@ -13,3 +13,7 @@ Solution
 -------------
 Simply copy the he2023{     } and paste it into the flag submission box.
 The text is greyed out, but copying it will select the actutal text.
+
+Flag
+-------------
+he2023{just_A_sanity_chEck}
