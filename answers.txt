@@ -7,7 +7,7 @@ Level 2
 Word Cloud - he2023{this_is_the_flag!}
 Rotation - he2023{0n3_c4n_r34d_r0t0r_b4ckw4rds}
 Birds on a Wire - he2023{birdwatchingisfun}
-Bins -
+Bins - he2023{s0rting_th3_w4ste}
 
 Level 3
 -------
