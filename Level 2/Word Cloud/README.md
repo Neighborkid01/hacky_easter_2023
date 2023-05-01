@@ -13,7 +13,7 @@ Download the image below (he2023-wordcloud.jpg), sharpen your eyes, and find the
 
 🚩 Flag
 
-starts with he2023{ and ends with }
+- starts with he2023{ and ends with }
 
 
 Solution

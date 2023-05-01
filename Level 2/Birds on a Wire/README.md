@@ -13,9 +13,9 @@ Download the image and find the flag!
 
 🚩 Flag
 
-lowercase only, no spaces
-wrap into `he2023{` and `}`
-example: `he2023{exampleflagonly}`
+- lowercase only, no spaces
+- wrap into `he2023{` and `}`
+- example: `he2023{exampleflagonly}`
 
 
 Solution

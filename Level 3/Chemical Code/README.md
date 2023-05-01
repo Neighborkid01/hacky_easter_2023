@@ -15,9 +15,9 @@ He also mumbled something like "essential and elementary knowledge".
 
 🚩 Flag
 
-lowercase only, no spaces
-wrap into `he2023{` and `}`
-example: `he2023{exampleflagonly}`
+- lowercase only, no spaces
+- wrap into `he2023{` and `}`
+- example: `he2023{exampleflagonly}`
 
 
 Hint
