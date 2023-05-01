@@ -1,0 +1,241 @@
+{
+	"info": {
+		"_postman_id": "63bd5283-5de8-44f2-bf88-e22562e32fcd",
+		"name": "Hacky Easter 2023",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "10558208"
+	},
+	"item": [
+		{
+			"name": "Hamster",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {
+					"user-agent": true
+				}
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "PUT",
+				"header": [
+					{
+						"key": "User-Agent",
+						"value": "hamster-agent",
+						"type": "text"
+					},
+					{
+						"key": "Referer",
+						"value": "hackyhamster.org",
+						"type": "text"
+					},
+					{
+						"key": "Cookie",
+						"value": "brownie=baked",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://ch.hackyeaster.com:2301/feed",
+					"protocol": "http",
+					"host": [
+						"ch",
+						"hackyeaster",
+						"com"
+					],
+					"port": "2301",
+					"path": [
+						"feed"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Going Round",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"let match = responseBody.match(/<h2>(.+?)<\\/h2>/);",
+							"match = match && match[1];",
+							"if (match) { ",
+							"    console.log(match);",
+							"    pm.collectionVariables.set(\"flag\", match);",
+							"    if (match.startsWith(\"he2023\")) { ",
+							"        console.error(\"^^^ ----------Found it!!!---------- ^^^\");",
+							"        pm.collectionVariables.set(\"found-flag\", match);",
+							"    }",
+							"}"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://ch.hackyeaster.com:2305/encrypt?s={{flag}}",
+					"protocol": "http",
+					"host": [
+						"ch",
+						"hackyeaster",
+						"com"
+					],
+					"port": "2305",
+					"path": [
+						"encrypt"
+					],
+					"query": [
+						{
+							"key": "s",
+							"value": "{{flag}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Serving Things",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"// let host = pm.iterationData.get(\"host\");",
+							"// let ep = pm.iterationData.get(\"endpoint\");",
+							"console.info(`${responseBody}`);",
+							"if (responseBody.includes(\"Bugs Bunny\")) {",
+							"console.error(`^^^ That's it ^^^`);",
+							"}"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://ch.hackyeaster.com:2316/get?url=http://{{host}}/{{endpoint}}",
+					"protocol": "http",
+					"host": [
+						"ch",
+						"hackyeaster",
+						"com"
+					],
+					"port": "2316",
+					"path": [
+						"get"
+					],
+					"query": [
+						{
+							"key": "url",
+							"value": "http://{{host}}/{{endpoint}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Igor's Gory Passwordsafe",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Cookie",
+						"value": "remember_token=caleb|371ffb66efa888bbc639a7d6176e4e4f15981899ef7c811f31442fdb1e1fc917e23a44aeb3dddeeb4339fb11b5abbbf9c9dd0e89a8496d1d6c7dc160e82748b7; session=.eJwljjsKAzEMBe_iOoUsWbZ3LxP0JYFUu9kq5O4xpBsezGM-5Z5HnI-yv48rbuX-9LIXz3Ab4JnDDawtGqKM2NwSrc2GDuaNBIVVY1Yh8DXgBI7N--w5OTm7QTMKIZmugspDYqwLxz76sjJrUFSDJM3YojKDVyor5Drj-NeYvELL9weDZzOD.ZE18hw.vmVXc-WOKN_x7ofxpB9oj7bUAxQ",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://ch.hackyeaster.com:2312/get/7",
+					"protocol": "http",
+					"host": [
+						"ch",
+						"hackyeaster",
+						"com"
+					],
+					"port": "2312",
+					"path": [
+						"get",
+						"7"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Digital Snake Art",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://ch.hackyeaster.com:2307/art?art=bmFtZTogU25ha2UgYW5kIFJhYmJpdCBCZWluZyBGcmllbmRzCmltYWdlOiBzbmFrZV9hbmRfcmFiYml0X2JlaW5nX2ZyaWVuZHMKc291cmNlOiBEQUxMLUUKcmVzb2x1dGlvbjogMjU2eDI1Ng==",
+					"protocol": "http",
+					"host": [
+						"ch",
+						"hackyeaster",
+						"com"
+					],
+					"port": "2307",
+					"path": [
+						"art"
+					],
+					"query": [
+						{
+							"key": "art",
+							"value": "bmFtZTogU25ha2UgYW5kIFJhYmJpdCBCZWluZyBGcmllbmRzCmltYWdlOiBzbmFrZV9hbmRfcmFiYml0X2JlaW5nX2ZyaWVuZHMKc291cmNlOiBEQUxMLUUKcmVzb2x1dGlvbjogMjU2eDI1Ng=="
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "flag",
+			"value": "ip0232j{1t_x_v0z4b3bm__v4xvq}a\n",
+			"type": "string"
+		},
+		{
+			"key": "found-flag",
+			"value": ""
+		},
+		{
+			"key": "host",
+			"value": "",
+			"type": "string"
+		},
+		{
+			"key": "endpoint",
+			"value": "",
+			"type": "string"
+		}
+	]
+}
