@@ -24,7 +24,6 @@ function bruteForce() {
                 let code_g = code;
                 for (let h = 0; h < nums.length; h++) {
                   code = code_g + nums[h];
-                  let code_h = code;
                   res = checkWASM(code);
                   if (res.startsWith("he2023")) {
                     console.log(code);
