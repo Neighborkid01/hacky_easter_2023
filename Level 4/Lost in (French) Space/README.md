@@ -32,7 +32,7 @@ Solution
 -------------
 All 4 of these coordinates point to somewhere in France.
 - `48.998 2.008` is next to a complex that translates to "Star Park"
-- `45.960 0.090` is field in Western France
+- `45.960 0.090` is a field in Western France
 - `43.579 1.524` is on a path next to a public area that translates to "The Center of the Planets" and there is a sign nearby with information about the sun
 - `45.007 4.335` is the Planet Mars observatory
 
@@ -41,7 +41,7 @@ All 4 of these coordinates point to somewhere in France.
 Our greatest hint comes from the 4th point, which is the Planet Mars observatory.
 The key insight here is that the 2nd point is actually legitimate, but it's just for a different map...
 
-If we track down a map of Mars, we can find the coordinates `45.960 0.090` point to a crater called "Davies".
+If we track down a map of Mars, we find that the coordinates `45.960 0.090` point to a crater called "Davies".
 
 Plugging that into the right format, we get the flag.
 
