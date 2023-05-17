@@ -81,3 +81,11 @@ Level 7
 
 Level 8
 -------
+
+[This One Goes To 11](Level%208/This%20One%20Goes%20To%2011/README.md)
+
+[Thumper's PWN - Ring 1](Level%208/Thumper's%20PWN%20-%20Ring%201/README.md)
+
+[Jason](Level%208/Jason/README.md)
+
+[The Little Rabbit](Level%208/The%20Little%20Rabbit/README.md)
